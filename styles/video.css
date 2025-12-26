@@ -1,0 +1,70 @@
+.thumbnails {
+    width: 100%;
+}
+
+.video_title {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.video_stats,
+.video_creator {
+    margin-top: 0px;
+    margin-bottom: 6px;
+    font-size: 13px;
+    color: gray;
+}
+
+
+.profile_pic {
+    width: 40px;
+    border-radius: 20px;
+    margin-top:20px;
+
+}
+
+.video_info_grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.video_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    padding-left: 20px;
+    row-gap: 30px;
+}
+
+@media (max-width: 750px) {
+    .video_grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1130px) {
+    .video_grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 1129px) {
+    .video_grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+.video_time {
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.thumbnail_row {
+    position: relative;
+}

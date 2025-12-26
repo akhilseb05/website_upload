@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Grid Practice
+        </title>
+    </head>
+
+    <body style = "padding-bottom: 500px;">
+        <div style ="
+            display: grid;
+            grid-template-columns: 100px 100px;
+            margin-bottom: 20px;
+            ">
+            <div style = "background-color: aquamarine;">div 1</div>
+            <div style="background-color: blueviolet;">div 2 <p>Hello</p></div>
+        </div>
+        <div style ="
+            display: grid;
+            grid-template-columns: 100px 100px 200px;
+            margin-bottom: 20px;
+            ">
+            <div style = "background-color: aquamarine;">div 1</div>
+            <div style="background-color: blueviolet;">div 2 <p>Hello</p></div>
+            <div style = "background-color: aquamarine;">div 3</div>
+        </div>
+
+
+        <div style ="
+            display: grid;
+            grid-template-columns: 100px 1fr;
+            margin-bottom: 20px;
+            ">
+            <div style = "background-color: aquamarine;">100px</div>
+            <div style="background-color: blueviolet;">1fr</div>
+        </div>
+
+        <div style ="
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            margin-bottom: 20px;
+            ">
+            <div style = "background-color: aquamarine;">100px</div>
+            <div style="background-color: blueviolet;">1fr</div>
+        </div>
+
+        <div style ="
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-bottom: 20px;
+            column-gap: 20px;
+            row-gap: 20px;
+            ">
+            <div style = "background-color: aquamarine; height: 300px;">1frx</div>
+            <div style="background-color: blueviolet; height: 300px;">1fr</div>
+            <div style="background-color: red; height: 300px;">1fr</div>
+            <div style="background-color: red; height: 300px;">1fr</div>
+            <div style = "background-color: aquamarine; height: 300px;">1frx</div>
+            <div style="background-color: blueviolet; height: 300px;">1fr</div>
+        </div>
+    </body>
+</html>
